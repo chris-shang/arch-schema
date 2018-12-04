@@ -16,16 +16,16 @@ Hi! This is the schema management repo for arch. To use the arch, you should con
 ## Global Configuration
 
     sqitch config --user user.name `whoami`
-    sqitch config --user user.email `whoami`@shopstyle.com
+    sqitch config --user user.email `whoami`@com
     sqitch config --user engine.mysql.client `which mysql`
 
 ## Project Configuration
 
-    sqitch config --user target.shopstyle.uri db:mysql://<username>:<password>@localhost/shopstyle_prod
+    sqitch config --user target.arch.uri db:mysql://<username>:<password>@localhost/arch
 
 ## Database Permissions
 
-    GRANT ALL PRIVILEGES ON sqitch_shopstyle.* to '<username>'@'%' WITH GRANT OPTION;
+    GRANT ALL PRIVILEGES ON arch.* to '<username>'@'%' WITH GRANT OPTION;
 
 ## Migrations
 
