@@ -3,3 +3,4 @@
 %uri=https://github.com/chris-shang/arch-schema/
 
 addDatabaseUser 2018-12-04T03:24:36Z chris <chris.shang@sinobot.com.cn> # add database user
+addUserTable 2018-12-04T09:03:27Z chris <chris.shang@sinobot.com.cn> # add user table
